@@ -1,7 +1,8 @@
 # uol_SDBS
 A database for a parcel delivery company - University of Lincoln: Scalable Database Systems
 
-Assignment task was as follows:
+The assignment task was as follows:
+
 "A parcel delivery company wishes to build a system to track its vehicles and drivers throughout
 the working day, i.e. from 8.00 am to 4:00 pm. The company has fitted each of its vehicles with a
 GPS tracking device which will send the data to a database hosted on a cloud system.
