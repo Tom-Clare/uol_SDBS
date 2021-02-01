@@ -70,3 +70,14 @@ ALTER TABLE `location` ADD CONSTRAINT `location_fk_shift_id` FOREIGN KEY (`shift
 
 INSERT INTO `shift_type` (`name`) VALUES ("morning");
 INSERT INTO `shift_type` (`name`) VALUES ("afternoon");
+
+INSERT INTO `driver` (`firstname`, `lastname`) VALUES ("Jim","Henshaw");
+INSERT INTO `driver` (`firstname`, `lastname`) VALUES ("Toby","Best");
+INSERT INTO `driver` (`firstname`, `lastname`) VALUES ("Ben","Jameson");
+INSERT INTO `driver` (`firstname`, `lastname`) VALUES ("Madilyn","Perrot");
+INSERT INTO `driver` (`firstname`, `lastname`) VALUES ("Toby","Clarke");
+INSERT INTO `driver` (`firstname`, `lastname`) VALUES ("Mike","Hemsworth");
+INSERT INTO `driver` (`firstname`, `lastname`) VALUES ("Penny","Simonsson");
+INSERT INTO `driver` (`firstname`, `lastname`) VALUES ("Josephine","Desroches");
+INSERT INTO `driver` (`firstname`, `lastname`) VALUES ("Eric","Revie");
+INSERT INTO `driver` (`firstname`, `lastname`) VALUES ("Maude","van Buren");
