@@ -81,3 +81,9 @@ INSERT INTO `driver` (`firstname`, `lastname`) VALUES ("Penny","Simonsson");
 INSERT INTO `driver` (`firstname`, `lastname`) VALUES ("Josephine","Desroches");
 INSERT INTO `driver` (`firstname`, `lastname`) VALUES ("Eric","Revie");
 INSERT INTO `driver` (`firstname`, `lastname`) VALUES ("Maude","van Buren");
+
+INSERT INTO `vehicle` (`make`, `model`) VALUES ("LDV","MAXUS");
+INSERT INTO `vehicle` (`make`, `model`) VALUES ("Ford","Transit");
+INSERT INTO `vehicle` (`make`, `model`) VALUES ("Mercedes","Sprinter");
+INSERT INTO `vehicle` (`make`, `model`) VALUES ("Ford","Transit");
+INSERT INTO `vehicle` (`make`, `model`) VALUES ("LDV","MAXUS");
