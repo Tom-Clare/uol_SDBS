@@ -68,11 +68,5 @@ ALTER TABLE `shift` ADD CONSTRAINT `shift_fk_vehicle_id` FOREIGN KEY (`vehicle_i
 ALTER TABLE `location` ADD CONSTRAINT `location_fk_shift_id` FOREIGN KEY (`shift_id`) REFERENCES `shift`(`id`);
 
 
-
-
-
-
-
 INSERT INTO `shift_type` (`name`) VALUES ("morning");
 INSERT INTO `shift_type` (`name`) VALUES ("afternoon");
-
