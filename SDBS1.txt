@@ -156,6 +156,7 @@ INSERT INTO `shift` (`shift_type_id`, `driver_id`, `vehicle_id`, `date`) VALUES 
 INSERT INTO `shift` (`shift_type_id`, `driver_id`, `vehicle_id`, `date`) VALUES (2, 8, 4, '2021-01-29');
 
 -- Location data
+-- morning 1
 INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (1, '2021-01-25 08:30:00', 51.43, -4.57);
 INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (2, '2021-01-25 08:30:00', 51.2, -4.74);
 INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (3, '2021-01-25 08:30:00', 51.99, -4.7);
@@ -180,3 +181,251 @@ INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (3, 
 INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (4, '2021-01-25 11:30:00', 52.05, -5.43);
 INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (5, '2021-01-25 11:30:00', 51.64, -4.86);
 
+-- afternoon 1
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (6, '2021-01-25 12:30:00', 51.7, -4.38);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (7, '2021-01-25 12:30:00', 51.72, -0.05);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (8, '2021-01-25 12:30:00', 51.48, -5.38);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (9, '2021-01-25 12:30:00', 50.28, 0.03);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (10, '2021-01-25 12:30:00', 51.04, -0.05);
+
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (6, '2021-01-25 13:30:00', 52.05, -1.46);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (7, '2021-01-25 13:30:00', 51.83, -1.06);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (8, '2021-01-25 13:30:00', 50.62, -5.43);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (9, '2021-01-25 13:30:00', 50.79, -3.96);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (10, '2021-01-25 13:30:00', 50.55, -5.36);
+
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (6, '2021-01-25 14:30:00', 51.48, 0.03);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (7, '2021-01-25 14:30:00', 51.11, -2.77);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (8, '2021-01-25 14:30:00', 52.67, -3.62);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (9, '2021-01-25 14:30:00', 50.65, -5.2);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (10, '2021-01-25 14:30:00', 52.1, -3.69);
+
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (6, '2021-01-25 15:30:00', 50.15, -0.9);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (7, '2021-01-25 15:30:00', 51.72, -1.73);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (8, '2021-01-25 15:30:00', 50.77, -3.46);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (9, '2021-01-25 15:30:00', 52.69, -2);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (10, '2021-01-25 15:30:00', 51.04, -0.03);
+
+-- morning 2
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (11, '2021-01-26 08:30:00', 51.63, -3.26);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (12, '2021-01-26 08:30:00', 52.03, -5.2);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (13, '2021-01-26 08:30:00', 51.11, -0.06);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (14, '2021-01-26 08:30:00', 51.23, -3.71);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (15, '2021-01-26 08:30:00', 51.16, -2.83);
+
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (11, '2021-01-26 09:30:00', 51.01, -0.96);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (12, '2021-01-26 09:30:00', 50.61, -4.79);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (13, '2021-01-26 09:30:00', 52.1, -4.02);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (14, '2021-01-26 09:30:00', 51.79, -0.05);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (15, '2021-01-26 09:30:00', 52.06, -0.34);
+
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (11, '2021-01-26 10:30:00', 51.72, -3.39);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (12, '2021-01-26 10:30:00', 52.69, -1.73);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (13, '2021-01-26 10:30:00', 52.69, -4.38);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (14, '2021-01-26 10:30:00', 52.1, -2.58);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (15, '2021-01-26 10:30:00', 50.77, -0.98);
+
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (11, '2021-01-26 11:30:00', 50.32, -2);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (12, '2021-01-26 11:30:00', 50.17, -0.06);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (13, '2021-01-26 11:30:00', 50.58, -2.78);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (14, '2021-01-26 11:30:00', 52.49, -4.38);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (15, '2021-01-26 11:30:00', 50.3, -2.78);
+
+-- afternoon 2
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (16, '2021-01-26 12:30:00', 51.11, -3.47);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (17, '2021-01-26 12:30:00', 52.8, -1.73);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (18, '2021-01-26 12:30:00', 51.72, -0.93);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (19, '2021-01-26 12:30:00', 52.31, -4.02);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (20, '2021-01-26 12:30:00', 50.62, -0.81);
+
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (16, '2021-01-26 13:30:00', 50.78, -1.62);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (17, '2021-01-26 13:30:00', 52.03, -5.36);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (18, '2021-01-26 13:30:00', 50.55, -0.63);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (19, '2021-01-26 13:30:00', 52.69, 0.69);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (20, '2021-01-26 13:30:00', 52, -4.86);
+
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (16, '2021-01-26 14:30:00', 51.03, -4.79);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (17, '2021-01-26 14:30:00', 52.06, -4.02);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (18, '2021-01-26 14:30:00', 52.69, -5.43);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (19, '2021-01-26 14:30:00', 51.76, -4.39);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (20, '2021-01-26 14:30:00', 52.31, -2.78);
+
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (16, '2021-01-26 15:30:00', 51.64, -5.36);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (17, '2021-01-26 15:30:00', 50.61, -0.03);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (18, '2021-01-26 15:30:00', 51.63, -0.76);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (19, '2021-01-26 15:30:00', 50.62, 0.66);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (20, '2021-01-26 15:30:00', 51.87, -1.28);
+
+-- morning 3
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (21, '2021-01-27 08:30:00', 52.69, -0.32);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (22, '2021-01-27 08:30:00', 52.32, -3.47);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (23, '2021-01-27 08:30:00', 52.05, -3.66);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (24, '2021-01-27 08:30:00', 50.29, -1.52);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (25, '2021-01-27 08:30:00', 50.3, -3.71);
+
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (21, '2021-01-27 09:30:00', 51.07, -4.38);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (22, '2021-01-27 09:30:00', 51.72, -1.92);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (23, '2021-01-27 09:30:00', 50.78, -3.46);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (24, '2021-01-27 09:30:00', 51.7, -0.34);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (25, '2021-01-27 09:30:00', 52.1, -0.03);
+
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (21, '2021-01-27 10:30:00', 51.64, -3.09);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (22, '2021-01-27 10:30:00', 50.83, -4.38);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (23, '2021-01-27 10:30:00', 52.56, -3.62);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (24, '2021-01-27 10:30:00', 51.22, -5.38);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (25, '2021-01-27 10:30:00', 52.09, -4.79);
+
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (21, '2021-01-27 11:30:00', 52.67, -5.33);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (22, '2021-01-27 11:30:00', 50.96, 0.04);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (23, '2021-01-27 11:30:00', 52.45, -4.86);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (24, '2021-01-27 11:30:00', 51.34, -1.73);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (25, '2021-01-27 11:30:00', 52.06, -4.86);
+
+-- afternoon 3
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (26, '2021-01-27 12:30:00', 51.43, -5.38);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (27, '2021-01-27 12:30:00', 51.22, -2.83);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (28, '2021-01-27 12:30:00', 51.43, -0.81);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (29, '2021-01-27 12:30:00', 51.08, -1.86);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (30, '2021-01-27 12:30:00', 51.97, -0.63);
+
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (26, '2021-01-27 13:30:00', 52.25, -1.86);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (27, '2021-01-27 13:30:00', 51.97, -0.9);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (28, '2021-01-27 13:30:00', 52.03, -0.97);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (29, '2021-01-27 13:30:00', 51.23, -0.63);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (30, '2021-01-27 13:30:00', 52.87, -1.48);
+
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (26, '2021-01-27 14:30:00', 52.5, -2.83);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (27, '2021-01-27 14:30:00', 50.8, -2.32);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (28, '2021-01-27 14:30:00', 51.53, -0.76);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (29, '2021-01-27 14:30:00', 52.56, -2.83);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (30, '2021-01-27 14:30:00', 51.46, -4.7);
+
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (26, '2021-01-27 15:30:00', 51.72, -2.77);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (27, '2021-01-27 15:30:00', 51.16, -0.81);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (28, '2021-01-27 15:30:00', 51.93, -2.58);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (29, '2021-01-27 15:30:00', 51.07, -2.96);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (30, '2021-01-27 15:30:00', 50.55, -0.05);
+
+-- morning 4
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (31, '2021-01-28 08:30:00', 52.56, -0.9);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (32, '2021-01-28 08:30:00', 51.53, -4.7);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (33, '2021-01-28 08:30:00', 51.7, 0.04);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (34, '2021-01-28 08:30:00', 51.08, -5.43);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (35, '2021-01-28 08:30:00', 50.8, -3.96);
+
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (31, '2021-01-28 09:30:00', 52.8, -0.36);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (32, '2021-01-28 09:30:00', 51.13, -2.96);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (33, '2021-01-28 09:30:00', 52.22, -4.82);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (34, '2021-01-28 09:30:00', 52.02, 0.62);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (35, '2021-01-28 09:30:00', 50.39, -1.98);
+
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (31, '2021-01-28 10:30:00', 50.17, -4.38);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (32, '2021-01-28 10:30:00', 51.72, -4.79);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (33, '2021-01-28 10:30:00', 50.83, -0.71);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (34, '2021-01-28 10:30:00', 51.6, -2.52);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (35, '2021-01-28 10:30:00', 50.39, 0.66);
+
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (31, '2021-01-28 11:30:00', 51.11, 0.59);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (32, '2021-01-28 11:30:00', 51.22, -1.84);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (33, '2021-01-28 11:30:00', 50.79, 0.48);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (34, '2021-01-28 11:30:00', 51.04, -0.64);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (35, '2021-01-28 11:30:00', 52.32, -5.38);
+
+-- afternoon 4
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (36, '2021-01-28 12:30:00', 51.64, -2.32);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (37, '2021-01-28 12:30:00', 51.79, -2.78);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (38, '2021-01-28 12:30:00', 51.46, 0.04);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (39, '2021-01-28 12:30:00', 51.2, -3.66);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (40, '2021-01-28 12:30:00', 51.04, -4.06);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (36, '2021-01-28 13:30:00', 51.97, -3.09);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (37, '2021-01-28 13:30:00', 50.3, -4.79);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (38, '2021-01-28 13:30:00', 51.8, -1.27);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (39, '2021-01-28 13:30:00', 52.5, -5.33);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (40, '2021-01-28 13:30:00', 52.67, 0.62);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (36, '2021-01-28 14:30:00', 50.17, -0.06);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (37, '2021-01-28 14:30:00', 52.37, -5.25);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (38, '2021-01-28 14:30:00', 51.03, -0.63);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (39, '2021-01-28 14:30:00', 52.22, -2.85);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (40, '2021-01-28 14:30:00', 51.97, -2.78);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (36, '2021-01-28 15:30:00', 50.32, -1.98);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (37, '2021-01-28 15:30:00', 51.22, -4.57);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (38, '2021-01-28 15:30:00', 51.72, 0.13);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (39, '2021-01-28 15:30:00', 51.7, -0.71);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (40, '2021-01-28 15:30:00', 50.39, -4.57);
+
+-- morning 5
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (41, '2021-01-29 08:30:00', 52.8, -4.7);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (42, '2021-01-29 08:30:00', 50.15, -2.77);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (43, '2021-01-29 08:30:00', 52.89, -1.62);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (44, '2021-01-29 08:30:00', 52.53, 0.62);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (45, '2021-01-29 08:30:00', 51.64, -0.81);
+
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (41, '2021-01-29 09:30:00', 50.65, -3.71);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (42, '2021-01-29 09:30:00', 50.88, 0.59);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (43, '2021-01-29 09:30:00', 50.98, -2.83);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (44, '2021-01-29 09:30:00', 51.15, 0.59);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (45, '2021-01-29 09:30:00', 52.05, -4.74);
+
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (41, '2021-01-29 10:30:00', 52.67, -0.93);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (42, '2021-01-29 10:30:00', 51.95, -1.86);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (43, '2021-01-29 10:30:00', 52.56, -2.32);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (44, '2021-01-29 10:30:00', 50.17, 0.59);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (45, '2021-01-29 10:30:00', 52.09, -2.83);
+
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (41, '2021-01-29 11:30:00', 52.03, -1.27);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (42, '2021-01-29 11:30:00', 51.04, -4.04);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (43, '2021-01-29 11:30:00', 52.5, -2.11);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (44, '2021-01-29 11:30:00', 50.33, -4.79);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (45, '2021-01-29 11:30:00', 52.31, -4.06);
+
+-- afternoon 5
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (46, '2021-01-29 12:30:00', 50.13, 0.59);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (47, '2021-01-29 12:30:00', 52.49, -4.57);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (48, '2021-01-29 12:30:00', 52.56, -2.85);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (49, '2021-01-29 12:30:00', 50.84, -2.74);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (50, '2021-01-29 12:30:00', 51.01, 0.13);
+
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (46, '2021-01-29 13:30:00', 51.8, -1.46);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (47, '2021-01-29 13:30:00', 51.2, -2.83);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (48, '2021-01-29 13:30:00', 52, -2.83);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (49, '2021-01-29 13:30:00', 51.11, -0.96);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (50, '2021-01-29 13:30:00', 52.16, -1.84);
+
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (46, '2021-01-29 14:30:00', 52.53, -4.82);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (47, '2021-01-29 14:30:00', 51.76, -5.25);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (48, '2021-01-29 14:30:00', 50.83, -1.73);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (49, '2021-01-29 14:30:00', 51.73, -0.64);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (50, '2021-01-29 14:30:00', 50.58, -3.09);
+
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (46, '2021-01-29 15:30:00', 52.06, -2.78);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (47, '2021-01-29 15:30:00', 50.96, -3.39);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (48, '2021-01-29 15:30:00', 51.22, -3.46);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (49, '2021-01-29 15:30:00', 51.07, -0.98);
+INSERT INTO `location` (`shift_id`, `time`, `latitude`, `longitude`) VALUES (50, '2021-01-29 15:30:00', 52.69, -1.27);
+
+-- change `location`.`time` to a time and not timestamp
+
+-- Addresses
+INSERT INTO `address` (`line_1`, `line_2`, `county`, `country`, `postcode`) VALUES ("90 Scarcroft Road","","Somerset","England","BA20 1RE");
+INSERT INTO `address` (`line_1`, `line_2`, `county`, `country`, `postcode`) VALUES ("61 Hendford Hill","","Herefordshire","England","HR9 2OD");
+INSERT INTO `address` (`line_1`, `line_2`, `county`, `country`, `postcode`) VALUES ("101 Victoria Road","","Cheshire","England","SK9 2EK");
+INSERT INTO `address` (`line_1`, `line_2`, `county`, `country`, `postcode`) VALUES ("9 Glandovey Terrace","","Herefordshire","England","HR6 5TF");
+INSERT INTO `address` (`line_1`, `line_2`, `county`, `country`, `postcode`) VALUES ("2 Cefn Road","","Derbyshire","England","DE3 1EA");
+INSERT INTO `address` (`line_1`, `line_2`, `county`, `country`, `postcode`) VALUES ("3 Gaben Street","","Dorset","England","DT7 4QZ");
+INSERT INTO `address` (`line_1`, `line_2`, `county`, `country`, `postcode`) VALUES ("79 Terrick Rd","","Somerset","England","BA16 5RT");
+INSERT INTO `address` (`line_1`, `line_2`, `county`, `country`, `postcode`) VALUES ("209 Pall Terrace","","Essex","England","EN9 3HX");
+INSERT INTO `address` (`line_1`, `line_2`, `county`, `country`, `postcode`) VALUES ("7 Preston Rd","","Derbyshire","England","DE5 2FL");
+INSERT INTO `address` (`line_1`, `line_2`, `county`, `country`, `postcode`) VALUES ("69 Ockham Road","","Devon","England","EX34 2WD");
+INSERT INTO `address` (`line_1`, `line_2`, `county`, `country`, `postcode`) VALUES ("74 Wenlock Terrace","","Cheshire","England","SK8 3RM");
+INSERT INTO `address` (`line_1`, `line_2`, `county`, `country`, `postcode`) VALUES ("45 Withers Close","","Dorset","England","DT9 2EJ");
+INSERT INTO `address` (`line_1`, `line_2`, `county`, `country`, `postcode`) VALUES ("75 Hendford Hill","","Staffordshire","England","DE13 4RB");
+INSERT INTO `address` (`line_1`, `line_2`, `county`, `country`, `postcode`) VALUES ("12 Roman Rd","","Somerset","England","BA16 7FD");
+INSERT INTO `address` (`line_1`, `line_2`, `county`, `country`, `postcode`) VALUES ("69 Terrick Rd","","Cheshire","England","SK9 1DL");
+INSERT INTO `address` (`line_1`, `line_2`, `county`, `country`, `postcode`) VALUES ("17 Poplar Avenue","","Ilfracombe","England","EX34 1WD");
+INSERT INTO `address` (`line_1`, `line_2`, `county`, `country`, `postcode`) VALUES ("14 Pendwyallt Road","","Herefordshire","England","HR6 2ED");
+INSERT INTO `address` (`line_1`, `line_2`, `county`, `country`, `postcode`) VALUES ("64 Wenlock Terrace","","Essex","England","EN9 1FA");
+INSERT INTO `address` (`line_1`, `line_2`, `county`, `country`, `postcode`) VALUES ("38 Roman Rd","","Staffordshire","England","DE14 3PS");
+INSERT INTO `address` (`line_1`, `line_2`, `county`, `country`, `postcode`) VALUES ("51 Wenlock Terrace","","Herefordshire","England","HR5 1WP");
+
+-- Parcels
+-- INSERT INTO `parcel` (`shift_id`, `address_id`) VALUES (,);
