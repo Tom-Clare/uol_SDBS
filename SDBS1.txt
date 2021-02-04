@@ -450,3 +450,48 @@ INSERT INTO `parcel` (`shift_id`, `address_id`) VALUES (7,5);
 INSERT INTO `parcel` (`shift_id`, `address_id`) VALUES (6,19);
 INSERT INTO `parcel` (`shift_id`, `address_id`) VALUES (7,14);
 
+-- Procedures
+
+DELIMITER //
+
+CREATE PROCEDURE GetAllDrivers()
+BEGIN
+	SELECT id, firstname, lastname
+	FROM `driver`;
+END //
+
+CREATE PROCEDURE GetLatLongFromLocationId(
+	IN location_id INT,
+	OUT out_latitude FLOAT,
+	OUT out_longitude FLOAT 
+)
+BEGIN
+	SELECT `latitude`, `longitude` INTO out_latitude, out_longitude
+	FROM `location`
+	WHERE `id` = location_id;
+END //
+
+CREATE PROCEDURE GetLocationOfDriver(
+	IN in_driver_id INT,
+	IN in_time TIME,
+	IN in_date DATE,
+	OUT latitude FLOAT,
+	OUT longitude FLOAT
+)
+BEGIN
+	SET @location_id := (
+		SELECT l.`id`
+		FROM `location` l
+		JOIN `shift` s ON s.`driver_id` = l.`shift_id`
+		WHERE s.`driver_id` = in_driver_id
+		AND s.`date` = in_date
+		AND l.`time` = in_time
+	);
+	CALL GetLatLongFromLocationId(@location_id, @latitude, @longitude);
+
+	SELECT @latitude, @longitude;
+
+DELIMITER ;
+
+-- use `sdbs`;
+-- CALL GetLocationOfDriver(2, '09:30:00', '2021-01-25', @latitude, @longitude);
